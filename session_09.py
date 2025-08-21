@@ -337,6 +337,94 @@
 # from sklearn.neighbors import KNeighborsClassifier as knn
 # ##################################################
 
+# data = ['hello', 20, 30, 100, 2999]
+# name = ['rose', 'ali', 'sara', 45]
 
+# # ('hello', 'rose'), (20, 'ali'), (30, 'sara')
+
+# result = zip(data, name)
+
+# for i, j in result:
+#     print(j)
+
+# data = ['hello', 20, 30, 100, 2999, 30, 25, 30, 40]
+
+# indx = []
+
+# for i, j in enumerate(data):
+#     if j == 30:
+#         indx.append(i)
+
+# print(indx)
+# ###################################
+
+# data = ['ali', 20, 'sara', 20, 'rose', 20, 20, 20, 20, 20, 30, 40]
+
+# for i in data:
+#     if i == 20:
+#         data.remove(i)
+
+# print(data)
+# ######################################
+
+# def show_message():
+#     print('We Are in the show function')
+
+
+# show_message()
+
+
+# def add_number(x):
+#     print(x + 10)
+
+
+# add_number(12.87)
+# #####################
+
+# def sum_num(adad1, adad2):
+#     print(adad1 + 10 + adad2)
+
+
+# sum_num(3, 7)
+# ################################
+
+# def add_numbers(first_num, second_num):
+#     return first_num + second_num
+
+
+# data = [10, 20, 30, 40]
+
+# average = add_numbers(10, 50) / 5
+# print(average)
+# #######################################
+
+# from math import pi
+
+
+# def area(radius):
+#     return pi * radius ** 2
+
+# def perimeter(radius):
+#     return 2 * pi * radius
+
+# def salary(working_hours, salary_per_hour):
+#     if working_hours > 44:
+#         normal = salary_per_hour * 44
+#         extra = (working_hours - 44) * 1.5 * salary_per_hour
+#         return normal + extra
+#     else:
+#         return working_hours * salary_per_hour
+
+
+# user_information = {
+#     'David': 10500,
+#     'Alex': 32000,
+#     'Mary': 24000,
+#     'Saeid': salary(56, 3),
+#     'Circle': area(10)
+# }
+
+# print(user_information)
+# #############################################
 
 
