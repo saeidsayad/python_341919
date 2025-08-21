@@ -427,4 +427,73 @@
 # print(user_information)
 # #############################################
 
+# def show_info(name, age):
+#     return name, age
+
+# x = show_info('reza', 20)
+# print(x)
+# #############################################
+# from math import pi
+
+
+# def area_peri(radius):
+#     area = pi * radius ** 2
+#     peri = 2 * pi * radius
+#     return area, peri, area * peri
+
+
+# result = area_peri(10)
+
+# masahat = result[0]
+# mohit = result[1]
+# x = result[2]
+# print(masahat)
+# print(mohit)
+# print(x)
+# ####################################
+
+# data = [10, 20, 30]
+# data.extend([20])
+
+# ######################################
+
+# def change_name(name):
+#     return name.upper()
+
+
+# change_name()
+# ########################################
+
+# def volume(x:float, y:float, z:float) -> float:
+#     return x * y * z
+
+
+# hajm = volume(10, 4, 3)
+# print(hajm)
+
+# ######################################
+
+
+# def volume(x, y, z):
+#     return x * y
+
+
+# hajm = volume(y=3, x=9, z=2)
+# print(hajm)
+# ###########################################
+
+# data = [10, 2, 4, 19]
+# data.sort()
+
+# print(data)
+# ########################################
+
+# def user_info(age, name='sara'):
+#     return {'Name': name, 'Age': age}
+
+
+# x = user_info(name='sara', age=21)
+# print(x)
+# #########################################
+
 
