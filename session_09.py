@@ -299,4 +299,44 @@
 
 # ###################################
 
+# d1 = {'orage': 20, 'apple': 3, 'banana': 2}
+# d2 = {'peach': 4, 'banana': 12, 'apple': 9}
+
+# for key in d2:
+#     if key not in d1:
+#         d1.setdefault(key, d2[key])         # d1[key] = d2[key]
+#     else:
+#         d1[key] += d2[key]
+
+# print(d1)
+# #########################################
+
+# import matplotlib.pyplot as plt
+
+
+# data = [12, 13, 13, 17, 14, 14, 14, 17,
+#         17, 17, 17,
+#         18, 18, 18,
+#         19, 19,
+#         20]
+
+
+# plt.hist(data, color='red')
+# plt.show()
+# ############################################
+
+# import random
+# from random import randint, randrange
+# from random import *
+# import statistics as st
+# from statistics import correlation as cr
+# import matplotlib.pyplot as plt
+# import numpy as np
+# import pandas as pd
+# import seaborn as sns
+# from sklearn.neighbors import KNeighborsClassifier as knn
+# ##################################################
+
+
+
 
